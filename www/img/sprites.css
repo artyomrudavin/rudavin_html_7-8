@@ -1,0 +1,22 @@
+.tools, .comment, .melody{
+	background: url(sprites.png) no-repeat;
+}
+
+.tools{
+	background-position: 0 0;
+	width: 30px;
+	height: 31px;
+}
+
+.comment{
+	background-position: -36px 0;
+	width: 33px;
+	height: 29px;
+}
+
+.melody{
+	background-position: -76px 0;
+	width: 29px;
+	height: 31px;
+}
+
