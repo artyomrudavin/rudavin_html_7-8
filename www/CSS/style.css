@@ -720,6 +720,16 @@ body {
 		top: 23px;
 	}
 
+	.about-company__h2--second-col:before {
+		background: url(../img/sprites.png) no-repeat;
+		background-position: 0 0;
+	}
+
+	.about-company__h2--third-col:before {
+		background: url(../img/sprites.png) no-repeat;
+		background-position: 0 0;
+	}
+
 	.about-company__h2--first-col {
 		padding: 2px 0 0 12px;
 	}
@@ -981,6 +991,16 @@ body {
 		top: 2px;
 	}
 
+	.about-company__h2--second-col:before {
+		background: url(../img/sprites.png) no-repeat;
+		background-position: 0 0;
+	}
+
+	.about-company__h2--third-col:before {
+		background: url(../img/sprites.png) no-repeat;
+		background-position: 0 0;
+	}
+
 	.about-company__text {
 		max-width: 84%;
 		padding-left: 3%;
@@ -1165,8 +1185,38 @@ body {
 @media all and (max-width: 320px) {
 	
 	/*header-START*/
+	.container__header {
+		background: url(../img/bg.jpg) no-repeat 49.3% 0;
+	}
+
 	.header__nav-menu {
 		display: none;
+	}
+
+	.item__img {
+		display: none;
+	}
+
+	.container__header:before {
+		display: none;
+	}
+
+	.header-slider__item-discript {
+		float: none;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
+	.header__h1 {
+		text-align: center;
+		font-size: 35.5px;
+    padding-left: 0.5%;
+	}
+
+	.header__h2 {
+		max-width: 80%;
+		
 	}
 
 	/*header-END*/
